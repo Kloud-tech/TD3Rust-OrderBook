@@ -2,8 +2,6 @@
 // REFERENCE IMPLEMENTATION (Naive, for correctness comparison)
 // ============================================================================
 
-use std::collections::HashMap;
-
 use crate::interfaces::{OrderBook, Price, Quantity, Side, Update};
 
 pub struct OrderBookImpl {}
